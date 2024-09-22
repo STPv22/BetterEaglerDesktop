@@ -1,0 +1,18 @@
+{
+    "name": "bettereaglerdesktop",
+    "version": "0.0.1",
+    "description": "WIP...",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "BetterEaglerDesktop"
+    },
+    "author": "stpv22",
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^32.1.2"
+    }
+}
