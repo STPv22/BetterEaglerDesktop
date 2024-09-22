@@ -13,7 +13,7 @@ module.exports = {
     },
     {
       name: '@electron-forge/maker-zip',
-      platforms: ['darwin'],
+      platforms: ['darwin', 'linux'],
     },
     {
       name: '@electron-forge/maker-deb',
@@ -21,7 +21,11 @@ module.exports = {
     },
     {
       name: '@electron-forge/maker-rpm',
-      config: {},
+      config: {
+        options: {
+          homepage: 'https://github.com/STPv22/BetterEaglerDesktop'
+        }
+    },
     },
   ],
   plugins: [
