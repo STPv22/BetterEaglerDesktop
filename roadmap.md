@@ -1,0 +1,7 @@
+- [ X ] Startup
+- [ ] test and compile, first release for Windows, and linux. (.rpm?, .deb?, .gz?, .tar?)
+- [ ] Test it EFI works properly
+- [ ] Using EFI, make a mod that adds:
+    - [ ] a quitgame option
+    - [ ] learn node?
+    - [ ] .eaglercraft folder, may have to do this comepletely without EFI.
