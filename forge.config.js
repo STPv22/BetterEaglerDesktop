@@ -14,11 +14,16 @@ module.exports = {
     },
     {
       name: '@electron-forge/maker-zip',
-      platforms: ['darwin', 'linux'],
+      platforms: ['darwin'],
     },
     {
       name: '@electron-forge/maker-deb',
-      config: {},
+      config: {
+        options: {
+          maintainer: 'stp22',
+          homepage: 'https://github.com/STPv22/BetterEaglerDesktop'
+        }
+      },
     },
     {
       name: '@electron-forge/maker-rpm',
