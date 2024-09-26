@@ -10,7 +10,8 @@ module.exports = {
   makers: [
     {
       name: '@electron-forge/maker-squirrel',
-      config: {},
+      config: {
+      },
     },
     {
       name: '@electron-forge/maker-zip',
@@ -21,7 +22,7 @@ module.exports = {
       config: {
         options: {
           maintainer: 'stp22',
-          homepage: 'https://github.com/STPv22/BetterEaglerDesktop'
+          homepage: 'https://github.com/STPv22/BetterEaglerDesktop',
         }
       },
     },

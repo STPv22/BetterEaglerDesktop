@@ -1,23 +1,19 @@
 const { app, BrowserWindow } = require('electron')
 const path = require('node:path')
 
-//DODO: make code ro insert BetterEaglerDesktop mod
-
 const createWindow = () => {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
-    titleBarStyle: 'hidden',
+    icon: '/icon.png',
     webPreferences: {
-      preload: path.join(__dirname, 'src/preload.js')
+      preload: path.join(__dirname, '/preload.js')
     }
-  })
+})
 
   // and load the index.html of the app.
   mainWindow.loadFile('eaglercraftx.html')
-
-  //mainWindow.webContents.openDevTools()
 }
 
 app.whenReady().then(() => {
